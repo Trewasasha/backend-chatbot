@@ -5,7 +5,7 @@ import com.example.chatbot_backend.model.ChatRequest;
 import com.example.chatbot_backend.service.ChatbotService;
 import org.springframework.web.bind.annotation.*;
 
-@CrossOrigin(origins = {"http://185.135.80.107", "http://localhost:3000"})
+@CrossOrigin(origins = {"http://185.135.80.107:3000", "http://localhost:3000"})
 @RestController
 @RequestMapping("/api")
 public class ChatbotController {
